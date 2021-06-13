@@ -4,7 +4,7 @@ These codes are written in MATLAB and are simulated for SIC (Successive Interfer
 using mmWave channel in 3D scenario where both azimuth and elevation angles are taken into account 
 and antennas at the Tx and Rx are arranged in 2D i.e. UPA or URA, in other words full-dimentional
 massive MIMO is considered here. These codes are simulated for multi-user and multi-cell cases and also 
-compared their performance with different parameters. ALso codes compares different factorization methods
+compared their performance with different parameters. Also codes compares different factorization methods
 (SVD, EVD, GMD) for capacity optimization. 
 
 Below described the functions/operations performed by different files -
@@ -27,3 +27,6 @@ precoding algorithms using sub connected and fully connected structures separate
 which uses OMP algorithm to find analog precoder and uses GMD for calculating digital precoder.
 Acually this is not a complete code, whose work is currently in progress (Code will be updated when 
 simulation completes). 
+
+Note that, in 2D scenario antennas will be arranged in linear i.e. ULA and only azimuth angle is considered
+in the channel. 
