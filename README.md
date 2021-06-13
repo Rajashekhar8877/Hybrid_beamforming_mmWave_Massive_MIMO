@@ -1,7 +1,6 @@
 # Hybrid_beamforming_mmWave_Massive_MIMO
 
-These codes are written in MATLAB. 
-These codes are simulated for SIC (Successive Interference Cancelation) based hybrid precoding 
+These codes are written in MATLAB and are simulated for SIC (Successive Interference Cancelation) based hybrid precoding 
 using mmWave channel in 3D scenario where both azimuth and elevation angles are taken into account 
 and antennas at the Tx and Rx are arranged in 2D i.e. UPA or URA, in other words full-dimentional
 massive MIMO is considered here. These codes are simulated for multi-user and multi-cell cases and also 
