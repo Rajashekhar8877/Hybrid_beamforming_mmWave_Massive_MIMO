@@ -13,13 +13,17 @@ using sub connected and fully connected structures separately for multi-user cas
 2) SIC_based_HP_3D_MU_FC_SC_comparisions.m - In this code the achievable rate of different schemes 
 i.e. SIC based hybrid precoding and optimal precoding schemes using sub connected and fully connected 
 structures separately for multi-user case in 3D scenario, are compared with the different parameters like 
-number of Tx/Rx antennas, number of RF chains at Tx/Rx, number of paths/rays and with the number of users. 
+number of Tx/Rx antennas, number of RF chains at Tx/Rx, number of paths/rays and with the number of users.
+Here to compare with a specific parameter, you have uncomment that specific section for that parameter in the
+code (comment all other sections related to other parameters) and run it.
 3) SIC_based_HP_multicell.m - Simulates SIC based hybrid precoding and optimal precoding schemes using sub 
 connected and fully connected structures separately for multi-cell case in 3D scenario.
 4) SIC_based_HP_multicell_comparisions.m - Here the achievable rate of different schemes i.e. SIC based 
 hybrid precoding and optimal precoding schemes using sub connected and fully connected structures separately 
 for multi-cell case in 3D scenario, are compared with the different parameters like number of Tx/Rx antennas, 
 number of RF chains at Tx/Rx, number of paths/rays, number of users per cell and with the number of cells. 
+Here to compare with a specific parameter, you have uncomment that specific section for that parameter in the
+code (comment all other sections related to other parameters) and run it.
 5) SIC_based_HP_3D_MU_FC_SC_using_EVD.m - Compares between SVD and EVD for capacity optimization for 
 multi-user case in 3D scenario, where capacity optimization is carried on the SIC based and optimal 
 precoding algorithms using sub connected and fully connected structures separately.
