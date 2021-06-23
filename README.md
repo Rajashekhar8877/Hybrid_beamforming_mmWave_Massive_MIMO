@@ -1,11 +1,23 @@
 # Hybrid_beamforming_mmWave_Massive_MIMO
 
-These codes are written in MATLAB and are simulated for SIC (Successive Interference Cancelation) based hybrid precoding 
-using mmWave channel in 3D scenario where both azimuth and elevation angles are taken into account 
+MIMO uses 2 to 4 antennas at the transmitter and receiver, which requires individual RF units for each 
+antenna. Massive MIMO uses further large number of antennas (at least 64 antennas) to improve throughput and 
+spectral efficiency, so it is one of the important technology in 5G. Beamforming is a signal processing 
+technique which sends the signal in a particular direction rather than in a broadcast manner, resulting into 
+increased dirctivity, energy efficiency, system gain and signal quality. Hence, it is called as one of the key 
+technology for 5G and adopted by massive MIMO, but it can support only single data stream with one user. Precoding
+is a generalization of beamforming to support multiple data streams which superposes multiple beams. There are 2
+types of precoding i.e. analog and digital precoding, whose combination of these 2 gives hybrid precoding which
+gives better performance with less complexity. In Successive Interference Cancelation (SIC) based hybrid precoding
+method, each antenna array is optimized separately (instead of jointly) such that while optimizing the specific
+array the contribution of optimized array is removed from the total capacity. 
+
+These codes are written in MATLAB and are simulated for SIC (Successive Interference Cancelation) based hybrid 
+precoding using mmWave channel in 3D scenario where both azimuth and elevation angles are taken into account 
 and antennas at the Tx and Rx are arranged in 2D i.e. UPA or URA, in other words full-dimentional
 massive MIMO is considered here. These codes are simulated for multi-user and multi-cell cases and also 
 compared their performance with different parameters. Also codes compares different factorization methods
-(SVD, EVD, GMD) for capacity optimization. 
+(like SVD, EVD, GMD) for capacity optimization in hybrid precoding. 
 
 Below described the functions/operations performed by different files -
 1) SIC_based_HP_3D_MU_FC_SC.m - It simulates SIC based hybrid precoding and optimal precoding schemes
